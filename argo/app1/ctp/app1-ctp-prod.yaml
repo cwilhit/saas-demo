@@ -1,0 +1,9 @@
+apiVersion: spaces.upbound.io/v1beta1
+kind: ControlPlane
+metadata:
+  name: app1-ctp-prod
+  namespace: app1
+spec:
+  crossplane:
+    autoUpgrade:
+      channel: Rapid
